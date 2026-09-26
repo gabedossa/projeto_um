@@ -11,6 +11,6 @@ Projeto Java da EBAC.
 ## Compilar e executar
 
 ```bash
-javac -d bin src/br/com/ebac/cadastro/App.java
+javac -encoding UTF-8 -d bin src/br/com/ebac/cadastro/*.java src/br/com/ebac/cadastro/*/*.java
 java -cp bin br.com.ebac.cadastro.App
 ```
